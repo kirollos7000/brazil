@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.navbar {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    padding-top: 3%;
+}
+
+.menu-icon {
+    width: 45px;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: black solid 2px;
+}
+
+nav ul a {
+    text-decoration:none;
+    font-size: 15px;
+    color: #1ca101;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: rgb(205, 6, 6);
+    font-size: 100px;
+}
+
+h2 {
+    color: rgb(205, 6, 6);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: black solid 2px;
+    padding: 5vh;
+
+}
+p {
+    color: #580202;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card1 {
+    background-image: url("culture1.jpg");
+}
+
+.card2 {
+    background-image: url("carnival.jpg");
+}
+
+.card3 {
+    background-image: url("sights1.jpg");
+}
+
+
+.card:hover {
+    transform: translateY(-25px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 15px;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+}
+
+a {
+    color: #fff;
+    text-shadow:0 0 5px #999;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.text-block1 img {
+    border: 1px solid #b61010;
+    border-radius: 10%;
+    width: 75px;
+  }
+  
+  .text-block2 img {
+    border: 1px solid #b61010;
+    border-radius: 10%;
+    width: 75px;
+  }
+  
+/* Här börjar about css*/
+h4{
+    color:white;
+    font-size: 25px;
+    text-align:left;
+}
+/* Här börjar culture css */
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("culture1.jpg");
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.col h1{
+    font-size: 55px;
+
+}
+
+.container12 {
+    position: relative;
+  }
+  
+  .text-block1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: black solid 2px;
+    padding: 5vh;
+}
+
+  h4{
+    color: red;
+  }
+  .text-block2{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.700);
+    border: black solid 2px;
+    padding: 5vh;
+}
+.text-block3{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.700);
+    border: black solid 2px;
+    padding: 5vh;
+}
+
+
+
+/* Här börjar tradions css */
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-image:url("carnival.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/* Här börjar sights css*/
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    background-image:url("sights1.jpg");
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+  
+
